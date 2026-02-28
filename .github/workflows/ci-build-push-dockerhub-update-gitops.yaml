@@ -6,7 +6,7 @@ on:
 
 env:
   IMAGE_NAME: docker.io/aa6488/demo
-  GITOPS_REPO: aa6488/gitops-repo
+  GITOPS_REPO: aa6488/k8s-gitops-repo
   GITOPS_BRANCH: main
   KUSTOMIZE_FILE: apps/demo/kustomization.yaml
 
