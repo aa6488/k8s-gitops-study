@@ -12,7 +12,7 @@ public class RootController {
     @GetMapping("/")
     public String root() {
 //        return "수정전 텍스트 문자열 입니다.";
-        return "gitops cicd 테스트@@!!!!@@";
+        return "버전 1.0 - cicd 테스트 입니다.";
     }
 
 }
